@@ -1,0 +1,1 @@
+<template><header><RouterLink class="brand" to="/"><span>✳</span> MathLand <small>数学奇遇岛</small></RouterLink><nav><RouterLink to="/">实验室</RouterLink><RouterLink to="/atlas">知识图鉴</RouterLink></nav></header><main><RouterView :key="$route.path"/></main><footer>MathLand · 探索 / 理解 / 推理 / 创造 · V1.0 preview</footer></template>
